@@ -1,7 +1,7 @@
-import os, glob, shutil, sys, subprocess
+import os, glob, shutil, sys, subprocess, time
 
 if len(sys.argv) == 2:
-    pattern = '*.zip'
+    time.sleep(1)
     path = os.getcwd()
     dest_path = os.path.join(path, sys.argv[1])
 
@@ -9,11 +9,11 @@ if len(sys.argv) == 2:
         print("creating directory")
         os.makedirs(dest_path)
 
-    matching_files = glob.glob(os.path.join(path, pattern))
+    matching_files = glob.glob(os.path.join(path, '*.zip'))
 
     for match in matching_files:
-        file = os.path.join(dest_path, os.path.basename(match))
-        shutil.move(match, dest_path)
+        file = os.path.join(path, os.path.basename(match))
+        shutil.move(file, dest_path)
     
     print("collecting finished")
     cmd = f"python3 extract_txt_from_zip.py {os.path.basename(dest_path)}"
