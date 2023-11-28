@@ -17,7 +17,6 @@ else:
     print("download finished\nstart collecting...")
     filename = expressions_list[0].split('_', 2)
     filename = filename[0] + '_' + filename[1]
-    print(filename)
     cmd = f"python3 push_zip_in_directory.py {filename}"
     process = subprocess.Popen(cmd, shell=True)
     process.communicate()
