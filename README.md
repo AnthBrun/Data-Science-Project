@@ -13,8 +13,7 @@ These scripts are written for data-repository-urls like opendata.dwd.de with a h
 ### Data preprocessing 
 1. Change to the Data preprocessing directory. Make sure you use the same directory tree as the scripts would build.
 2. Collect all of your CSV files of one topic together in one CSV file with collect_csv.py.
-3. To collect all your CSV files, you can use the collect_csv.py to join the files at the date.
-4. Also you can merge two of your CVS files with merge_collected_csv.py
+3. Also you can merge two of your CVS files with merge_collected_csv.py
 
 ## Examples
 ```bash
