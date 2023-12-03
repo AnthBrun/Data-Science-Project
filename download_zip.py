@@ -12,7 +12,8 @@ else:
     for expression in expressions:
         download_url = f"{url}/{expression}"
         cmd = f"curl -s -O {download_url}"
-        subprocess.Popen(cmd, shell=True)
+        process = subprocess.Popen(cmd, shell=True)
+        process.wait()
         i += 1
     print("download finished\nstart collecting...")
     filename = expressions_list[0].split('_', 2)
