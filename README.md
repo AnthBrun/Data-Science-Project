@@ -24,4 +24,4 @@ python3 collect_csv [Directory]
 python3 merge_collected_csv.py [csv1] [csv2]
 ```
 
-&copy; by JuicyLady
+&copy; by DWD-Team
