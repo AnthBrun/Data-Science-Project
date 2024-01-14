@@ -1,5 +1,6 @@
 # Data Repository Download and Preprocessing Scripts
 These scripts are written for data-repository-urls like opendata.dwd.de with a huge amount of zip archieves. They are purposed to automatically donwload, organization and converting by a cascading direction. To preprocess the data you can use the scripts in the directory Data preprocessing.
+All scripts are made for Windows OS only.
 
 ## Usage
 ### Download and organize scripts:
