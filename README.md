@@ -25,4 +25,7 @@ python3 collect_csv [Directory]
 python3 merge_collected_csv.py [csv1] [csv2]
 ```
 
+## Results
+<embed src="/Results-Poster.pdf" type="application/pdf">
+
 &copy; by Nikolas Rösler & Anthony Brunner
