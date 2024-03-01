@@ -26,6 +26,6 @@ python3 merge_collected_csv.py [csv1] [csv2]
 ```
 
 ## Results
-<image src="/Results-Poster.pdf" type="application/pdf">
+<image src="/Results-Poster.pdf">
 
 &copy; by Nikolas Rösler & Anthony Brunner
