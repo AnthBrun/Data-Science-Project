@@ -26,6 +26,6 @@ python3 merge_collected_csv.py [csv1] [csv2]
 ```
 
 ## Results
-![poster](/Results-Poster.pdf "result poster")
+![poster](/poster.png "result poster")
 
 &copy; by Nikolas Rösler & Anthony Brunner
